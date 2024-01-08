@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+#finance-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    padding: 1%;
+    min-width: 45vw;
+    min-height: 30vh;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+input, button, select{
+    margin: 0.1% 0;
+}
+
+button{
+    background-color: lightblue;
+}
+
+#budget-summary{
+    display: flex;
+    flex-direction: row;
+}
+
+#budget-summary li{
+    list-style: none;
+}
